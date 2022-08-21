@@ -1,0 +1,8 @@
+baseURL = 'http://bucket-for-example-hugo-website.s3-website-us-west-2.amazonaws.com'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ananke"
+
+[[deployment.targets]]
+name="awsbucket"
+URL = "s3://bucket-for-example-hugo-website?region=us-west-2"
